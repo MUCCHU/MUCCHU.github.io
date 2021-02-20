@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="styleform.css">
+   
+    <script src=javascpt.js></script>
+</head>
+<body>
+    <form action="">
+        <h1 class="iitkgp"> <img class="logo" src="kgplogo.png" alt=""> Indian Institue Of Technology, Kharagpur</h1>
+        <hr>
+        <h2 class="admfrm">Admission Form</h2>
+        <p class="manda">Mandatory fields are marked by asterisk *</p>
+        <div class="container">
+            <h3>Personal Details</h3>
+            <p class="tpm">Name *: <input type="text" name="name" required placeholder="Ex: Akshay Kumar"></p>
+            <p>Date of Birth *: <input type="date" name="dob" id="" required></p>
+            <p>Gender :</p>
+            <fieldset>
+                <!-- <legend>Gender</legend> -->
+                <p>
+                     <span class="gens1"><input type="radio" name="gender" id="male"> Male</span>    
+                     <span class="gens2"><input type="radio" name="gender" id="female"> Female</span>
+                     <span class="gens3"><input type="radio" name="gender" id="ot"> Other</span>
+                     <span class="gens4"><input type="radio" name="gender" id="pnts"> Prefer Not to say</span>
+                </p>
+           </fieldset>
+           <p>Address *:
+             <textarea name="add" id="" cols="100" rows="5" required placeholder="Your Address goes here"></textarea></p>
+           <p>City *: <input type="text" required placeholder="City name"></p>
+           <p>State *: <input type="text" name="state">  </p>
+                               <p>Pincode: <input type="number" name="pincde" id="pincde"></p>
+                               <p>AAdhar Number *: <input type="number" name="adno" id="" required></p>
+                               <p>Email ID *: <input type="email" name="email" id="" required placeholder="abc@xyz.com"></p>
+                               <p class="asp" id="phno">Phone Number *: <input type="number" name="phno" id="" required></p>
+
+                               <h3>Academic Details</h3>
+                               <p class="tpm" id="reg">JEE Main Registration No *: <input type="number" name="regno" id="" required></p>
+                               <p id="perc">JEE Main Percentile *: <input type="number" name="percentile" id="" required></p>
+                               <p id="advr">JEE Advanced Roll No *: <input type="number" name="rollno" id="" required></p>
+                               <p id="advs">JEE Advanced Score *: <input type="number" name="advsc" id="" required></p>
+                               <p>Class 12 board *: <select name="board" id="">
+                                   <option value="">--Select board--</option>
+                                   <option value="isc">ISC</option>
+                                   <option value="cbse">CBSE</option>
+                                   <option value="state">State</option>
+                               </select></p>
+                               <p class="asp" id="p12">Class 12 percentage *: <input type="text" name="perc" required></p>
+
+    
+                               <h3>Set Password for your Account</h3>
+                                <p id="pword" class="tpm">Password *: <input type="password" name="passw" id="p" required onclick="fxn()"></p>
+                                <p class="spc"><input type="checkbox" name="sp" id="spcb" onclick="fxn()"> Show password</p>
+                                <p>Confirm Password *: <input type="password" name="cpass" id="cp" required onclick="unctc()"></p>
+                                <p id="r" style="display:none" class="alrt" >Password and confirm password don't match</p>
+                               <p><input type="checkbox" id="chkbox" name="condtn" id="" required onclick="equalizepcp()"> I, hereby agree that all the information provided above is correct as per my knowledge</p>
+                               <p><input type="submit" id="submitbutton" value="Proceed And save info"  ></p>
+
+
+           
+        </div>
+    </form>
+</body>
+</html>
