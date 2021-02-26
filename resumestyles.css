@@ -1,0 +1,133 @@
+
+nav a {
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+nav a:hover{
+    background-color: white;
+}
+header{
+    position:sticky;
+}
+body
+{
+     background-image: url("workspace2.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+     background-color: #dbd2d2de;
+    /* background-size: cover; */
+    background-size: 100% 80%;
+
+    background-attachment: scroll;
+}
+/* .background
+{
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url("workspace2.jpg");
+    backdrop-filter: blur(8px);
+    background-size: cover;
+} */
+.about{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    background-color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;;
+    margin-top: 100px;
+}
+.hello
+{
+    display: block;
+    margin-left: ;
+    height:60px
+}
+.pic
+{
+width: 100%;
+}
+#img
+{
+    display: block;
+    margin: 60px;
+    /* background-color: tomato; */
+    flex-basis: 30%;
+    height: 100%;
+}
+#img{
+    flex-basis: 30%;
+    margin-right: 20px;
+}
+#desc
+{
+    flex-basis: 70%;
+    line-height: 50%;
+    display:block;
+    margin: 60px;
+    flex-basis: 70%;
+    /* background-color:teal; */
+}
+#desc
+{
+    margin-bottom: 20px;
+}
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.navbar{
+    width:100%;
+}
+.abl
+{
+    float: left;
+    line-height: 1.2;
+}
+.abinfo
+{
+    float:right;
+    margin-right: 40%;
+    line-height: 1.2;
+}
+.abs
+{
+    margin: 60px;
+}
+.abtf
+{
+    padding-top: 0px;
+    margin-top: 0px;
+    width:70%;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.socialicons{
+    background-color: red;
+}
+#fb,#ig,#tw,#li{
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+    padding: 20px 70px;
+
+}
+#fb
+{
+    margin-left: 20%;
+}
+#fb:hover
+{
+    cursor:pointer;
+}
