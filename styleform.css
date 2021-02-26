@@ -11,6 +11,13 @@ body{
     background-size: cover; */
     background-color:powderblue;
 }
+.nameicon{
+    width: 3%;
+    vertical-align:middle;
+}
+.name{
+    width: 50%;
+}
 .container
 {
     background-color: #ece8e894;
