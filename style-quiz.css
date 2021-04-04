@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Jost", sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #446d76;
+}
+header h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: white
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+}
+.q
+{
+    text-align: center;
+    background-color: #45d2a7;
+    font-size: 30px;
+    font-weight: 600;
+    color: #151515bb;
+    font-family: "Jost", sans-serif;
+    padding: 50px 20px;
+}
+.a
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+}
+.options
+{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    background-color: #e5e8ef;
+    font-size: 23px;
+    font-weight: 600;
+    color: #446d76;
+}
+a{
+    text-decoration: none;
+}
+.bottom-foot
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    
+    display: flex;
+    justify-content:space-between;
+}
+.qanda
+{
+    background-color:#45d2a7 ;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 576px;
+}
+.prev-butt
+{
+    
+}
+.next-butt
+{
+    
+}
+.bottom-butts
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #446d76;
+    color: white;
+}
+.bottom-most-foot
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color:#446d76;
+    height: 90px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    font-family: "Jost", sans-serif;
+}
+.start-page h2
+{
+    line-height: 2;
+}
+.start-page p
+{
+    line-height: 2;
+    color: #446d76;;
+}
+.to-be-disabled
+{
+    color: black;
+    background-color: #446d76;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.instructions h2
+{
+    margin-top: 0px;
+}
+.instructions ul
+{
+    color: #446d76;
+    margin-top: 10px;
+    line-height: 2.5;
+    text-align: justify;
+    margin-left: 150px;
+}
+li span
+{
+    padding-left: 30px;
+}
+.instructions, .start-page, .Result
+{
+    padding-top: 40px;
+    text-align: center;
+    background-color: #45d2a7;
+    font-size: 30px;
+    font-weight: 600;
+    color: #151515bb;
+    font-family: "Jost", sans-serif;
+}
+legend
+{
+    display: inline;
+}
+.confirmation a
+{
+    background-color: #45d2a7;
+    color: #446d76;
+    margin-left: 40px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: inherit;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.7;
+}
+.tot-mar
+{
+    width: 40px;
+    border-top: 4px solid black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.marks-obtained
+{
+    padding-top: 20px;
+}
+input[type="submit"]:hover, input[type="checkbox"]
+{
+    cursor: pointer;
+}
+.oval
+{
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+/* .q , .a , .bottom-foot
+{
+    padding-left: 40px;
+    padding-right: 40px;
+} */
