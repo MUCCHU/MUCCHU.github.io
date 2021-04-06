@@ -216,17 +216,20 @@ footer
     .start-page h2
     {
         margin-top: 0px;
-        font-size: 25px;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 2;
+        font-family: 'Josh', sans-serif;
         color: #151515bb;
     }
     .start-page
     {
-        padding-top: 110px;
-        padding-bottom: 110px;
+        padding-top: 160px;
+        padding-bottom: 80px;
     }
     .start-page p
     {
-        font-size: 20px;
+        font-size: 25px;
     }
     .to-be-disabled
     {
@@ -237,23 +240,108 @@ footer
         padding-bottom: 50px;
     }
 }
+@media screen and (max-width: 947px) {
+    .start-page
+{
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+}
   
     @media screen and (max-width: 772px) {
         .start-page
         {
             padding-top: 90px;
-            padding-bottom: 80px;
+            padding-bottom: 130px;
+        }
+        .start-page h2
+        {
+            font-size: 35px;
+        }
+        .start-page p
+        {
+            font-size: 23px;
         }
         
+    }
+    @media  screen and (max-width: 610px) {
+        .start-page
+        {
+            padding-top: 75px;
+            padding-bottom: 100px;
+        }
     }
     @media screen and (max-width: 539px) {
         .start-page p
         {
-            padding-bottom: 30px;
+            padding-bottom: 20px;
         }
         .start-page
         {
-            padding-top: 70px;
+            padding-top: 90px;
+            padding-bottom: 115px;
+        }
+    }
+    @media screen and (max-width: 537px) {
+        .start-page p
+        {
+            padding-bottom: 20px;
+        }
+        .start-page
+        {
+            padding-top: 60px;
+            padding-bottom: 75px;
+        }
+    }
+    @media  screen and (max-width: 506px) {
+        .start-page h2{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .start-page p{
+            font-size: 20px;
+        }
+        .start-page
+        {
+            padding-bottom: 160px;
+            padding-top: 80px;
+        }
+    }
+    @media screen and (max-width: 473px) {
+        .start-page
+        {
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+    }
+    @media screen and (max-width: 451px) {
+        .start-page
+        {
+            padding-top: 50px;
+            padding-bottom: 90px;
+        }
+    }
+    @media screen and (max-width: 368px) {
+        .start-page
+        {
+            padding-top: 30px;
             padding-bottom: 70px;
         }
+        .start-page p{
+            padding-bottom: 20px;
+        }
+    }
+    @media screen and (max-width: 341px) {
+        .start-page{
+            padding-top: 35px;
+            padding-bottom: 60px;
+        }
+        .start-page p{
+            padding-bottom: 7px;
+        }
+        .start-page h2{
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
     }
