@@ -145,7 +145,7 @@ a{
     margin-left: 150px;
     margin-bottom: 0px;
 }
-li span
+li div
 {
     padding-left: 30px;
 }
@@ -158,6 +158,11 @@ li span
     font-weight: 600;
     color: #151515bb;
     font-family: "Jost", sans-serif;
+}
+.instructions
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 legend
 {
@@ -174,6 +179,14 @@ legend
     pointer-events: none;
     cursor: default;
     opacity: 0.7;
+}
+.confirmation
+{
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
 }
 .tot-mar
 {
@@ -193,6 +206,12 @@ input[type="submit"]:hover, input[type="checkbox"]
 {
     cursor: pointer;
 }
+input[type="checkbox"]
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
 .oval
 {
     padding-top: 20px;
@@ -207,11 +226,40 @@ footer
 {
     /* position: fixed; */
 }
+
 /* .q , .a , .bottom-foot
 {
     padding-left: 40px;
     padding-right: 40px;
 } */
+@media screen and (max-width:1414px) {
+    .instructions ul{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1312px) {
+    .instructions ul{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:1264px) {
+    .instructions ul{
+        font-size: 25px;
+        margin-left: 80px;
+    }
+    .confirmation
+    {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .instructions ul{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
 @media screen and (max-width: 1000px){
     .start-page h2
     {
@@ -246,6 +294,9 @@ footer
     padding-bottom: 100px;
     padding-top: 90px;
 }
+.instructions h2{
+    font-size: 40px;
+}
 }
   
     @media screen and (max-width: 772px) {
@@ -262,13 +313,24 @@ footer
         {
             font-size: 23px;
         }
-        
+        .instructions ul{
+            text-align: left;
+        }
+        .instructions h2{
+            font-size: 37px;
+        }
     }
     @media  screen and (max-width: 610px) {
         .start-page
         {
             padding-top: 75px;
             padding-bottom: 100px;
+        }
+        .instructions h2{
+            font-size: 33px;
+        }
+        .instructions ul, .confirmation{
+            font-size: 23px;
         }
     }
     @media screen and (max-width: 539px) {
@@ -280,6 +342,10 @@ footer
         {
             padding-top: 90px;
             padding-bottom: 115px;
+        }
+        ul div
+        {
+            padding-left: 0px;
         }
     }
     @media screen and (max-width: 537px) {

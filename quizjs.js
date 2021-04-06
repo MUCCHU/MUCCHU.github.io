@@ -43,7 +43,8 @@ function Instructions()
     document.getElementsByClassName("q")[0].style.display="none";
     document.getElementsByClassName("start-page")[0].style.display="none";
     document.getElementsByClassName("instructions")[0].style.display="block";
-    document.getElementsByClassName("confirmation")[0].style.display="block";
+    document.getElementsByClassName("confirmation")[0].style.display="flex";
+    document.getElementsByClassName("bottom-most-foot")[0].style.height="auto";
 }
 function displayFirstque()
 {
