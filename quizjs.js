@@ -53,6 +53,11 @@ function displayFirstque()
     document.getElementsByClassName("q")[0].style.display="block";
    document.getElementsByClassName("a")[0].style.display="block";
    document.getElementsByClassName("bottom-foot")[0].style.display="flex";
+   document.getElementsByClassName("bottom-most-foot")[0].style.minHeight="90px";
+   document.getElementsByClassName("bottom-most-foot")[0].style.paddingLeft="20px";
+   document.getElementsByClassName("bottom-most-foot")[0].style.paddingRight="20px";
+   document.getElementsByClassName("bottom-most-foot")[0].style.paddingTop="20px";
+   document.getElementsByClassName("bottom-most-foot")[0].style.paddingBottom="20px";
    changeqanda();
 }
 // changeqanda();

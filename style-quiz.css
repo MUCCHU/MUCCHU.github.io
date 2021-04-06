@@ -24,6 +24,7 @@ header h2{
 }
 .q
 {
+    line-height: 1.5;
     text-align: center;
     background-color: #45d2a7;
     font-size: 30px;
@@ -66,8 +67,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    padding-bottom: 40px;
-    
+    padding-bottom: 63px;
     display: flex;
     justify-content:space-between;
 }
@@ -290,13 +290,21 @@ footer
 }
 @media screen and (max-width: 947px) {
     .start-page
-{
-    padding-bottom: 100px;
-    padding-top: 90px;
-}
-.instructions h2{
-    font-size: 40px;
-}
+        {
+            padding-bottom: 100px;
+             padding-top: 90px;
+        }
+    .instructions h2{
+         font-size: 40px;
+            }
+        .a
+        { 
+            width: 100%;
+        }
+        .bottom-foot
+        {
+            width: 100%;
+        }
 }
   
     @media screen and (max-width: 772px) {
@@ -319,6 +327,14 @@ footer
         .instructions h2{
             font-size: 37px;
         }
+        .q
+        {
+            font-size: 27px;
+        }
+        .bottom-most-foot
+        {
+            font-size: 27px;
+        }
     }
     @media  screen and (max-width: 610px) {
         .start-page
@@ -331,6 +347,14 @@ footer
         }
         .instructions ul, .confirmation{
             font-size: 23px;
+        }
+        .prev-butt
+        {
+            margin-right: 10px;
+        }
+        .next-butt
+        {
+            margin-left: 10px;
         }
     }
     @media screen and (max-width: 539px) {
@@ -346,6 +370,22 @@ footer
         ul div
         {
             padding-left: 0px;
+        }
+        .prev-butt
+        {
+            margin-left: 0px;
+        }
+        .next-butt
+        {
+            margin-right: 0px;
+        }
+        .q
+        {
+            font-size: 25px;
+        }
+        .bottom-most-foot
+        {
+            font-size: 25px;
         }
     }
     @media screen and (max-width: 537px) {
