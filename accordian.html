@@ -10,16 +10,16 @@
         $(document).ready(function()
         {
             $(".core-members-trigger").click(function(){
-                $(".core-members").slideToggle();
+                $(".core-membersx").slideToggle();
             })
             $(".web-members-trigger").click(function(){
-                $(".web-members").slideToggle();
+                $(".web-membersx").slideToggle();
             })
             $(".des-members-trigger").click(function(){
-                $(".des-members").slideToggle();
+                $(".des-membersx").slideToggle();
             })
             $(".teams-trigger").click(function(){
-                $(".teams").slideToggle();
+                $(".teamsx").slideToggle();
             })
         });
     </script>
@@ -44,6 +44,10 @@
         
             border-top: 3px solid #2161619e;
         }
+        .last-one
+        {
+            border-bottom: 3px solid #2161619e;
+        }
         .members
         {
             padding-left: 15px;
@@ -55,12 +59,12 @@
             width: 50%;
             padding-left: 15px;
         }
-        .teams
+        .teamsx
         {
             padding-left: 15px;
             display: none;
         }
-        .core-members, .web-members, .des-members
+        .core-membersx, .web-membersx, .des-membersx
         {
             display: none;
         }
@@ -71,18 +75,18 @@
                     <div class="teams-trigger" style="display: block;">
                             E-cell Teams
                     </div>
-                                <div class="teams">
+                                <div class="teamsx">
                                     <div class="teams core-members-trigger topmost">
                                         Core Team
                                     </div>
-                                                <div class="core-members">
+                                                <div class="core-membersx">
                                                     <div class="core-members members topmost">
                                                             Member 1
                                                     </div>
                                                     <div class="core-members members">
                                                         Member 2
                                                     </div>
-                                                    <div class="core-members members">
+                                                    <div class="core-members members last-one">
                                                         Member 3
                                                     </div>
                                                 </div>
@@ -90,28 +94,28 @@
                                     <div class="teams web-members-trigger">
                                         Web Team
                                     </div>
-                                            <div class="web-members">
+                                            <div class="web-membersx">
                                                     <div class="web-members members topmost">
                                                         Member 1
                                                     </div>
                                                     <div class="web-members members">
                                                     Member 2
                                                     </div>
-                                                    <div class="web-members members">
+                                                    <div class="web-members members last-one">
                                                         Member 3
                                                     </div>
                                                 </div>
                                     <div class="teams des-members-trigger">
                                         Deign Team
                                     </div>
-                                                <div class="des-members">
+                                                <div class="des-membersx">
                                                     <div class="des-members members topmost">
                                                             Member 1
                                                     </div>
                                                     <div class="des-members members">
                                                         Member 2
                                                     </div>
-                                                    <div class="des-members members">
+                                                    <div class="des-members members last-one">
                                                         Member 3
                                                     </div>
                                                 </div>
