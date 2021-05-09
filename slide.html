@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        .mainbox
+        {
+            position: relative;
+            background-color: red;
+            border: 5px solid yellow;
+            border-radius: 5px;
+            height: 100px;
+        }
+        .left, .right
+        {
+            position: absolute;
+            display: inline-block;
+            width: 49%;
+            border: 5px solid black;
+        }
+        .left
+        {
+            left: 0px;
+        }
+        .right
+        {
+            right: 0px;
+        }
+        .butt{
+            /* display: inline-block; */
+            position: absolute;
+            bottom: 0px;
+            background-color: blue;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $(".butt").click(function(){
+                console.log("Click detected");
+                $(".left").animate({
+                    left: '+=760px'
+                });
+                $(".right").animate({
+                    right: '+=760px'
+                }, "slow");
+                toogle_classes();
+
+
+            });
+            function toogle_classes()
+            {
+                console.log("inside Toggle Classes");
+                $(".left").removeClass("left");
+                $(".right").removeClass("right");
+                $(".l-dabba").addClass("right");
+               
+                $(".r-dabba").addClass("left");
+                $(".right").addClass("r-dabba");
+                $(".left").addClass("l-dabba")
+            }
+
+        });
+    </script>
+</head>
+<body>
+    <div class="mainbox">
+        Main box
+        <br>
+        <span class="left l-dabba">
+            Left div
+        </span>
+        <span class="right r-dabba">
+            right div
+        </span>
+        <button class="butt">Change</button> 
+    </div>
+</body>
+</html>

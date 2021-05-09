@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: end;
+}
+.h-item
+{
+    padding: 10px;
+}
+.row
+{
+    display: flex;
+}
+.col
+{
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 1px;
+    margin-left: 1.5px;
+}
+.user
+{
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: yellow;
+}
+.user-h
+{
+    background-color: green;
+    padding-top: 1.70835px;
+    padding-bottom: 1.70835px;
+    border-radius: 50%;
+}
