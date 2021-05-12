@@ -1,6 +1,6 @@
 html
 {
-    scoll-behaviour: smooth;
+    scroll-behaviour: smooth;
 }
 body{
     margin: 0px;
