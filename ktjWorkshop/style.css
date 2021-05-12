@@ -1,3 +1,7 @@
+html
+{
+    scoll-behaviour: smooth;
+}
 body{
     margin: 0px;
     padding: 0px;
