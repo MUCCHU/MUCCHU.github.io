@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e4cd78;
+}
+.navbar,footer
+{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar
+{
+    position: sticky;
+    top: 0;
+}
+.logoI
+{
+    padding: 5px;
+    border-radius: 50%;
+}
+.rintro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #9f7741, #e4ce78, #946223);
+    overflow: hidden;
+}
+.nvbrC
+{
+    padding: 10px;
+}
+.intro
+{
+    display: flex;
+    text-align: center;
+    background-color: #edebb9;
+}
+.lintro, .lreviews
+{
+    width: 50%;
+}
+.rintro, .rreviews
+{
+    width: 50%;
+}
+.reviews{
+    display: flex;
+    text-align: center;
+}
+.navL
+{
+    padding: 0px;
+}
+.navL li
+{
+    display: inline;
+}
+.navL li a
+{
+    text-decoration: none;
+    color: #956028;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.navL li a:hover
+{
+    color:#6b331e;
+}
+.rintro h1
+{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    font-weight: 900;
+    color: #5e2b19;
+    display: block;
+    padding: 20px;
+    border: 1px solid #5e2b19;
+}
+.rintro h2
+{
+    font-size: 30px;
+    color: #956028;
+}
+.titleD
+{
+    height: max-content;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+.specialities
+{
+    text-align: center;
+}
+.heading
+{
+    color: #5e2b19;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.shortD
+{
+    color: #956028;
+    font-size: 20px;
+}
+.cardsW
+{
+    display: flex;
+    justify-content: center;
+}
+.cardsW img
+{
+    display: block;
+    margin-bottom: 30px;
+}
+.card
+{
+    background-color: #fbfbfb;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 270px;
+    word-wrap: break-word;
+}
+.card h3
+{
+    font-size: 25px;
+    font-weight: unset;
+}
+.Cend
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.VNVo
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border: 2px solid;
+}
+.VNVi
+{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-color: red; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nvego
+{
+    border-color: red;
+}
+.vego
+{
+    border-color: green;
+}
+.nvegi
+{
+    background-color: red;
+}
+.vegi
+{
+    background-color: green;
+}
+.add_butt
+{
+    border: 3px solid green;
+    width: max-content;
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+.addO
+{
+    display: flex;
+    justify-content: center;
+}
