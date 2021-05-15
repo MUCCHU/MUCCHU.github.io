@@ -50,7 +50,7 @@ body{
 {
     width: 50%;
 }
-.reviews{
+.twoCols{
     display: flex;
     text-align: center;
 }
@@ -104,19 +104,23 @@ body{
 .heading
 {
     color: #5e2b19;
-    padding-top: 50px;
+    padding-top: 0px;
+    padding-right: 40px;
     font-size: 40px;
 }
 .shortD
 {
     color: #956028;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    padding-right: 40px;
 }
 .cardsW
 {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .cardsW img
 {
@@ -215,10 +219,55 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.recommendations
+.recommendations, .specialities, .reviews
 {
     text-align: center;
     width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px; */
+    margin: 80px auto;
+}
+.sDplusImg
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.rndUpi
+{
+    border-radius: 50%;
+    border: 10px solid #aa844a;
+}
+.hpsD
+{
+    flex-grow: 1;
+    text-align: justify;
+    padding-left: 50px;
+}
+.searchbar
+{
+    font-size: 25px;
+    border: none;
+    border-width: 0px;
+    border-color: transparent;
+}
+.searchbar:focus
+{
+    outline: none;
+    
+}
+.searchIcon
+{
+  font-size: 23px;
+}
+.searchO
+{
+    padding: 5px 20px;
+    border-radius: 25px;
+    width: max-content;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
