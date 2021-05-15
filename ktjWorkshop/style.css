@@ -360,3 +360,32 @@ footer
     justify-content: space-between;
     width: max-content;
 }
+.fftcu
+{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.socialicons i{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.socialicons
+{
+    display: flex;
+    justify-content: center;
+}
+.policies 
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.pp, .cc{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
