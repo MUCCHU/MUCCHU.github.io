@@ -7,12 +7,13 @@ body{
     padding: 0px;
     background-color: #e4cd78;
 }
-.navbar,footer
+.navbar
 {
     /* padding: 20px; */
     display: flex;
     justify-content: space-between;
     background-color: black;
+    z-index: 1000;
 }
 .navbar
 {
@@ -270,4 +271,92 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+}
+.cardr
+{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+.pimage
+{
+    text-transform: uppercase;
+}
+.reviewT
+{
+    flex-grow: 1;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.qmark
+{
+    font-size: 30px;
+    color: gray;
+}
+.qmarkr
+{
+    margin-left: 90%;
+}
+.reviewT p
+{
+    padding: 0 40px;
+}
+textarea
+{
+    resize: none;
+}
+.war
+{
+    font-size: 32px;
+    text-align: center;
+}
+/* form
+{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.formF
+{
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    width: 100%;
+}
+.rreviews
+{
+    text-align: left;
+    padding-left: 30px;
+}
+input[type="submit"]
+{
+    width: unset;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #956028;
+}
+.FormL
+{
+    color: #956028;
+    font-size: 20px;
+}
+footer
+{
+    background-color: black;
+}
+.footer
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: max-content;
 }
