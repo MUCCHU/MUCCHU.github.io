@@ -111,6 +111,7 @@ body{
 {
     color: #956028;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 .cardsW
 {
@@ -140,6 +141,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px 0px;
 }
 .VNVo
 {
@@ -186,4 +188,37 @@ body{
 {
     display: flex;
     justify-content: center;
+}
+.Added_text
+{
+    display: none;
+}
+.card p
+{
+    padding: 0px 20px;
+}
+.add_butt:focus .Add_text
+{
+    display: none;
+}
+.add_butt:focus .Added_text
+{
+    display: block;
+}
+.add_butt:focus
+{
+    background-color: green;
+    color: white;
+}
+.Add_text,.Added_text
+{
+    margin: 0px;
+    padding: 0px;
+}
+.recommendations
+{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
