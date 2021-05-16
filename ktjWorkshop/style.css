@@ -1,7 +1,6 @@
-html
-{
-    scroll-behaviour: smooth;
-}
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin: 0px;
     padding: 0px;
@@ -388,4 +387,8 @@ footer
     text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
+}
+#reviews, #recommendations, #specialities
+{
+    padding-top: 40px;
 }
