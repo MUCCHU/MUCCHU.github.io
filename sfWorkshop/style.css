@@ -1,0 +1,315 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+    top:  0;
+    background-color: white;
+    z-index: 1000;
+}
+.rnav
+{
+    padding: 15px;
+    font-size: 25px;
+}
+.lnav
+{
+    padding-top: 10px;
+}
+.navC
+{
+    list-style-type: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navC li
+{
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.navC a
+{
+    text-decoration: none;
+    color:  black;
+    font-weight: 500
+}
+.active
+{
+    color: brown !important;
+}
+.intro{
+    display: flex;
+    border: 1px solid black;
+}
+.outerI
+{
+    padding: 5% ;
+}
+
+/* New Styling begins */
+
+html{
+    scroll-behavior: smooth;
+}
+header
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d8b8b8;
+}
+nav a {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:red; 
+    border-bottom: 4px solid #d8b8b8;
+}
+nav a:hover{
+    border-bottom: 4px solid red;
+}
+body
+{
+     background-image: url("workspace2.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+     background-color: #dbd2d2de;
+    /* background-size: cover; */
+    background-size: 100% 600px;
+
+    background-attachment: scroll;
+}
+/* .background
+{
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url("workspace2.jpg");
+    backdrop-filter: blur(8px);
+    background-size: cover;
+} */
+#about
+{
+    padding-top: 70px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    background-color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hello
+{
+    display: block;
+    margin-left: ;
+    height:60px
+}
+.pic
+{
+width: 100%;
+}
+#img
+{
+    display: block;
+    margin: 60px;
+    /* background-color: tomato; */
+    flex-basis: 30%;
+    height: 100%;
+}
+#img{
+    flex-basis: 30%;
+    margin-right: 20px;
+}
+#desc
+{
+    flex-basis: 70%;
+    line-height: 50%;
+    display:block;
+    margin: 60px;
+    flex-basis: 70%;
+    /* background-color:teal; */
+}
+#desc
+{
+    margin-bottom: 20px;
+}
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.navbar{
+    width:100%;
+}
+.abl
+{
+    float: left;
+    line-height: 1.2;
+}
+.abinfo
+{
+    float:right;
+    margin-right: 40%;
+    line-height: 1.2;
+}
+.abs
+{
+    margin: 60px;
+}
+.abtf
+{
+    padding-top: 0px;
+    margin-top: 0px;
+    width:70%;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.socialicons{
+    background-color: red;
+}
+#fb,#ig,#tw,#li{
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+    padding: 20px 70px;
+
+}
+#fb
+{
+    margin-left: 20%;
+}
+#fb:hover
+{
+    cursor:pointer;
+}
+.resumeview
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.briefings
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+#skills
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.sklist
+{
+    text-align: left;
+    list-style-type: circle;
+}
+.ss1
+{
+    float:left;
+    margin-left: 30%;
+}
+.ss2
+{
+    margin-right: 30%;
+    float: right;
+}
+.sklist
+{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.Education
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 16%;
+}
+.edudetails
+{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.instname
+{
+    width: 60%;
+    padding: 20px;
+    text-align: justify;
+}
+.instdec
+{
+    width: 40%;
+    padding: 20px;
+    text-align: justify;
+}
+body
+{
+    margin: 0px;
+}
+#skills
+{
+    padding-top: 80px;
+}
+#work
+{
+    padding-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+#work p
+{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.descriptionabout
+{
+    line-height: 2;
+    font-size: 20px;
+}
+#desc
+{
+    line-height: 100%;
+}
