@@ -443,6 +443,7 @@ input[type="checkbox"]:checked + .drpdown
     margin-right: 5px;
     height: 50px;
     width: 50px;
+    display: none;
     /* background-color: red;
     margin: 3px 3px 3px 4px;
     z-index: 500;
@@ -579,7 +580,10 @@ input[type="checkbox"]:checked + .drpdown
 @media (max-width: 650px)
 {
     /* hide navbar and use a hamburger menu */
-
+    .HamIcon
+    {
+        display: block;
+    }
     .navL
     {
         display: none;
@@ -619,6 +623,10 @@ input[type="checkbox"]:checked + .drpdown
     .footerLogo
     {
         width: 420px;
+    }
+    .hpsD
+    {
+        padding: 0px;
     }
 }
 @media (max-width: 417px)
