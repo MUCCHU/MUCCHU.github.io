@@ -42,6 +42,7 @@ class cell{
         {
             var newCell = document.getElementById("r"+this.rno.toString()+"c"+this.cno.toString());
             console.log(newCell);
+            newCell.innerHTML="";
             newCell.style.width="0px";
             newCell.style.height="0px";
         }
@@ -195,7 +196,23 @@ function generateGrid()
         }
     }
 }
-generateGrid();
+DisplayRestart();
+function DisplayRestart()
+{
+    document.getElementById("numberOfRows").value=4;
+    document.getElementById("numberOfColumns").value=4;
+    rowinp.value=4;
+    colinp.value=4;
+}
+function restartGame() {
+    var rowinp = document.getElementById("numberOfRows").value;
+    var colinp = document.getElementById("numberOfColumns").value;
+    r=rowinp;
+    c=colinp;
+    console.log(document.getElementsByClassName("semiTrans")[0]);
+    document.getElementsByClassName("semiTrans")[0].style.display="none";
+    generateGrid();
+}
 //Code to test animation
 // var itemtomove = document.getElementsByClassName("toMove")[0].style.position = "absolute";
 // var pos=0;
