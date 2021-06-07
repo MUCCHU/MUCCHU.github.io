@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.GameHeading{
+    text-align: center;
+}
+.gridContainer
+{
+    text-align: center;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cells
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.cell
+{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+    background-color: chartreuse;
+}
+.CellOuterB
+{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    flex-shrink: 0;
+}
+.emptyCell
+{
+    background-color: red;
+}
+.nonEmptyCell
+{
+    background-color: greenyellow;
+}
