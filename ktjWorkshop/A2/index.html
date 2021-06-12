@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,62 @@
     <title>Game</title>
     <link rel="stylesheet" href="Styling/style.css">
 </head>
+
 <body>
-    <h1 class="GameHeading">
-        Sliding Game
-    </h1>
-    <div id ="gridSpace">
-        
+    <div class="FinalWrapper">
+        <div class="HeadingW">
+            <h1 class="GameHeading">
+                The Mystic Square
+            </h1>
+        </div>
+        <div class="MTnGs">
+            <div class="movesAtimer">
+                <div class="moves">
+                    Moves
+                </div>
+                <div class="timer">
+                    Timer
+                </div>
+            </div>
+            <div id="gridSpace">
+
+            </div>
+        </div>
+        <div id="WinningMessage">
+
+        </div>
+        <div id="tryAgainButton" onclick="DisplayRestart()">
+            Try again
+        </div>
     </div>
-    <div id="WinningMessage">
-        
-    </div>
-    <div id="tryAgainButton" onclick="generateGrid()">
-        Try again
-    </div>
+    <!-- Landing form -->
     <div class="semiTrans">
         <div class="NewGame">
             <div class="ng-gameHeading">
                 Mystic Square
             </div>
             <div class="ngHeadingPgsize">
-               <p class="cgs">Choose a Grid Size</p> 
-               <div class="RnCAcceptors">
-                   <div class="RoAcceptor">
-                    Row
-                    <input type="number" name="" id="numberOfRows">
-                   </div>
-                   <div class="Middlex">
-                    X
-                   </div>
-                   <div class="ColAcceptor">
-                    Column
-                    <input type="number" name="" id="numberOfColumns">
-                   </div>
-               </div>
-               <div class="playButton" onclick="restartGame()">
-                   Play
-               </div>
+                <p class="cgs">Choose a Grid Size</p>
+                <div class="RnCAcceptors">
+                    <div class="RoAcceptor">
+                        Row
+                        <input type="number" name="" id="numberOfRows">
+                    </div>
+                    <div class="Middlex">
+                        X
+                    </div>
+                    <div class="ColAcceptor">
+                        Column
+                        <input type="number" name="" id="numberOfColumns">
+                    </div>
+                </div>
+                <div class="playButton" onclick="restartGame()">
+                    Play
+                </div>
             </div>
         </div>
     </div>
     <script src="Javascript/mainBrain.js"></script>
 </body>
+
 </html>
