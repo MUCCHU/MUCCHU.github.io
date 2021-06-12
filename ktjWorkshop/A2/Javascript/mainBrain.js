@@ -1,4 +1,6 @@
 var r = 2, c = 2;
+var moves = 0, timer = 0;
+var myVar;
 var grid;
 function createArr() {
     grid = new Array(r);
@@ -94,8 +96,12 @@ class cell {
         this.isEmpty = true;
         this.srno = r * c;
         this.formatEmptyCell();
-
+        moves++;
+        console.log(moves);
     }
+}
+function updateMoves() {
+    document.getElementById("movesValue").innerHTML = " " + moves.toString();
 }
 function checkIfWon() {
     console.log("Checking if winning position achieved");
@@ -118,6 +124,10 @@ function checkIfWon() {
     return (won);
 
 }
+function updateTimer() {
+    timer++;
+    document.getElementById("timeValue").innerHTML = timer.toString() + " s";
+}
 function shuffle(array) {
     var currentIndex = array.length, randomIndex;
 
@@ -136,6 +146,8 @@ function shuffle(array) {
     return array;
 }
 function cellClicked() {
+    if (moves == 0)
+        myVar = setInterval(updateTimer, 1000);
     var ClickedRno = this.id.slice(this.id.indexOf("r") + 1, this.id.indexOf("c"));
     var ClickedCno = this.id.slice(this.id.indexOf("c") + 1);
     console.log(ClickedRno);
@@ -144,8 +156,10 @@ function cellClicked() {
     var eIndex = grid[ClickedRno][ClickedCno].ngbEmptyIndex();
     if (eIndex != -1) {
         grid[ClickedRno][ClickedCno].swap(eIndex);
+        updateMoves();
         console.log("swap possible");
         if (checkIfWon()) {
+            clearInterval(myVar);
             console.log("Winner!!");
             document.getElementById("WinningMessage").style.display = "block";
             document.getElementById("WinningMessage").innerHTML = "WON";
@@ -161,6 +175,7 @@ function generateGrid() {
     document.getElementById('gridSpace').style.pointerEvents = 'auto';
     var container = document.getElementById("gridSpace");
     container.innerHTML = "";
+
     var k = 0;
     var ar = [];
     for (var i = 1; i <= c * r; i++)
@@ -179,6 +194,7 @@ function generateGrid() {
 }
 DisplayRestart();
 function DisplayRestart() {
+    moves = 0;
     document.getElementsByClassName("semiTrans")[0].style.display = "block";
     document.getElementById("numberOfRows").value = 4;
     document.getElementById("numberOfColumns").value = 4;
