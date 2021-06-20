@@ -21,20 +21,21 @@ body {
   background-color: white;
   padding: 30px;
   text-align: center;
+  margin: 20px;
 }
 .emP-logiNforM h2 {
   margin-top: 0px;
 }
-.emP-outeRcrosS {
-  padding: 20px;
-}
+
 .emP-logiNclosEbuttoN {
   display: flex;
   justify-content: flex-end;
   position: relative;
+  padding: 20px;
+}
+.emP-finaLcrosS {
   width: max-content;
   height: max-content;
-  padding: 20px;
 }
 .emP-logiNclosEcrosS1 {
   width: 30px;
@@ -59,4 +60,7 @@ input[type="submit"] {
   width: 30%;
   border: none;
   border-radius: 20px;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
 }
