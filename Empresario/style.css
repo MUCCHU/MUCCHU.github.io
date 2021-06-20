@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.emP-bacKdroP {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: #c4b6b6d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.emP-logiNforM {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+.emP-logiNforM h2 {
+  margin-top: 0px;
+}
+.emP-outeRcrosS {
+  padding: 20px;
+}
+.emP-logiNclosEbuttoN {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: max-content;
+  height: max-content;
+  padding: 20px;
+}
+.emP-logiNclosEcrosS1 {
+  width: 30px;
+  border: 2px solid white;
+  background-color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+.emP-logiNclosEcrosS2 {
+  width: 30px;
+  border: 2px solid white;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+}
+input[type="submit"] {
+  width: 30%;
+  border: none;
+  border-radius: 20px;
+}
