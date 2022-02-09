@@ -39,39 +39,63 @@
 
             </div>
         </div>
-        <div id="WinningMessage">
-
+        <div class="WinningMessage">
+            <div class="semiTrans">
+                <div class="NewGame">
+                    <div class="ng-gameHeading congoRibbon">
+                        Congratulations!
+                    </div>
+                    <div class="d-flex">
+                        <div class="ngHeadingPgsize mx-2">
+                            <p class="cgs" style="text-align: left; padding-left: 25px; font-size: 20px; line-height: 2;">Your Score : <span id="score"></span>
+                            <br>
+                                Your Time : <span id="time"></span>
+                            </p>
+                        </div>
+                        <div class="ngHeadingPgsize mx-2">
+                            <div class="tryagainbutton" onclick="DisplayRestart()">
+                                Try Again
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="tryAgainButton" onclick="DisplayRestart()">
             Try again
         </div>
     </div>
     <!-- Landing form -->
-    <div class="semiTrans">
-        <div class="NewGame">
-            <div class="ng-gameHeading">
-                Mystic Square
-            </div>
-            <div class="ngHeadingPgsize">
-                <p class="cgs">Choose a Grid Size</p>
-                <div class="RnCAcceptors">
-                    <div class="RoAcceptor">
-                        Row
-                        <input type="number" name="" id="numberOfRows">
-                    </div>
-                    <div class="Middlex">
-                        X
-                    </div>
-                    <div class="ColAcceptor">
-                        Column
-                        <input type="number" name="" id="numberOfColumns">
-                    </div>
+    <div class="newgame">
+        <div class="semiTrans">
+            <div class="NewGame">
+                <div class="ng-gameHeading">
+                    Mystic Square
                 </div>
-                <div class="playButton" onclick="restartGame()">
-                    Play
+                <div class="ngHeadingPgsize">
+                    <p class="cgs">Choose a Grid Size</p>
+                    <div class="RnCAcceptors">
+                        <div class="RoAcceptor">
+                            Row
+                            <input type="number" name="" id="numberOfRows">
+                        </div>
+                        <div class="Middlex">
+                            X
+                        </div>
+                        <div class="ColAcceptor">
+                            Column
+                            <input type="number" name="" id="numberOfColumns">
+                        </div>
+                    </div>
+                    <div class="playButton" onclick="restartGame()">
+                        Play
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="backDrop">
+        
     </div>
     <script src="Javascript/mainBrain.js"></script>
 </body>

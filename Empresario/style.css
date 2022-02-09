@@ -4,6 +4,10 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
 }
 .emP-bacKdroP-logiN,
 .emP-bacKdroP-registeR {
@@ -12,7 +16,7 @@ body {
   left: 0px;
   height: 100vh;
   width: 100%;
-  background-color: #c4b6b6d3;
+  background-color: #29246af1;
   display: flex;
   justify-content: center;
   align-items: center;

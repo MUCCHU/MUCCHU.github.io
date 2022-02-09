@@ -145,6 +145,9 @@ function shuffle(array) {
 
     return array;
 }
+function personWon() {
+
+}
 function cellClicked() {
     if (moves == 0)
         myVar = setInterval(updateTimer, 1000);
@@ -162,7 +165,11 @@ function cellClicked() {
             clearInterval(myVar);
             console.log("Winner!!");
             document.getElementById("WinningMessage").style.display = "block";
-            document.getElementById("WinningMessage").innerHTML = "WON";
+            // document.getElementById("WinningMessage").innerHTML = "WON";
+            var score = document.getElementById("movesValue").innerHTML;
+            document.getElementById("score").innerHTML = score;
+            var time = document.getElementById("timeValue").innerHTML;
+            document.getElementById("time").innerHTML = time;
             document.getElementById('gridSpace').style.pointerEvents = 'none';
             document.getElementById("tryAgainButton").style.display = "block";
         }
@@ -195,9 +202,15 @@ function generateGrid() {
 DisplayRestart();
 function DisplayRestart() {
     moves = 0;
-    document.getElementsByClassName("semiTrans")[0].style.display = "block";
+    console.log("1");
+    document.getElementsByClassName("WinningMessage")[0].style.display = "none";
+    console.log("1");
+    document.getElementsByClassName("newgame")[0].style.display = "block";
+    console.log("1");
     document.getElementById("numberOfRows").value = 4;
+    console.log("1");
     document.getElementById("numberOfColumns").value = 4;
+    console.log("1");
     rowinp.value = 4;
     colinp.value = 4;
 }
@@ -206,7 +219,7 @@ function restartGame() {
     var colinp = document.getElementById("numberOfColumns").value;
     r = rowinp;
     c = colinp;
-    console.log(document.getElementsByClassName("semiTrans")[0]);
-    document.getElementsByClassName("semiTrans")[0].style.display = "none";
+    console.log(document.getElementsByClassName("newgame")[0]);
+    document.getElementsByClassName("newgame")[0].style.display = "none";
     generateGrid();
 }
